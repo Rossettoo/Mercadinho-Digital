@@ -1,4 +1,4 @@
-/* Fonte moderna */
+
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap');
 
 body {
@@ -8,14 +8,14 @@ body {
   color: #374151; 
 }
 
-/* Cabeçalho */
+
 h1 {
   color: #1E3A8A; 
   text-align: center;
   margin-bottom: 10px;
 }
 
-/* Botão logout */
+
 button[onclick="logout()"] {
   background-color: #1E3A8A;
   color: #FACC15; 
