@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <title>Catálogo - Mercadinho</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>Mercadinho Digital</h1>
+    <button onclick="logout()" class="btn-logout">Sair</button>
+  </header>
+
+  <main>
+    <section id="catalogo" class="produtos" aria-label="Catálogo de produtos">
+      <!-- Produtos carregados aqui via JS -->
+    </section>
+
+    <aside>
+      <h2>Carrinho</h2>
+      <div id="carrinho" aria-live="polite" aria-atomic="true">
+        <!-- Itens do carrinho aqui -->
+      </div>
+      <p>Total: R$ <span id="total">0.00</span></p>
+      <button onclick="finalizarCompra()" class="btn-finalizar">Finalizar Compra</button>
+    </aside>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
